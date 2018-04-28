@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const env = require('environment.js');
+const config = require('config.json');
 
 const PREFIX = '$';
 
@@ -42,4 +42,4 @@ client.on('message', message => {
 	}
 });
 
-client.login(env.BOT_TOKEN);
+client.login(config.BOT_TOKEN);
