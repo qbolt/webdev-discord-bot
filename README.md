@@ -1,5 +1,5 @@
 # webdev-discord-bot
-You are going to need to make sure you have both Node (v 6.0 or greater) and discord.js installed. You will also need to make sure you have a bot created with permissions set up and assigned to your server. This project assumes you already know how to do so, but if you do not you can find a bunch of tutorials on youtube. For setting up a discord bot go here:https://twentysix26.github.io/Red-Docs/red_guide_bot_accounts/
+You are going to need to make sure you have both Node (v 6.0 or greater) and discord.js installed. You will also need to make sure you have a bot created with permissions set up and assigned to your server. This project assumes you already know how to do so, but if you do not you can find a bunch of tutorials on youtube. For setting up a discord bot go here:https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
 
 
 Once you have Node and discord.js installed, you will want to edit the discordbot.js file.
