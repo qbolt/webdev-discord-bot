@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const env = require('environment');
+const env = require('environment.js');
 
 const PREFIX = '$';
 
