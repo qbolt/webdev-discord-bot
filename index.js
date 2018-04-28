@@ -9,6 +9,10 @@ client.on('ready', () => {
 	console.log('Bot is online!')
 })
 
+client.on('guildMemberAdd', member => {
+   member.send("Welcome to the server! Please stop by #role-assignment to assign a role based on your skill level! You can use $help to see the commands.");
+});
+
 client.on('message', message => {
 	const args = message.content.substring(PREFIX.length).split(' ')
 	const command = args[0]
