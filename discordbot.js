@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const env = require('environment');
+
 const PREFIX = '$';
 
 client.on('ready', () => {
@@ -40,9 +42,4 @@ client.on('message', message => {
 	}
 });
 
-
-
-
-
-
-client.login('BOT_TOKEN_GOES_HERE');
+client.login(env.BOT_TOKEN);
