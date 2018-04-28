@@ -10,33 +10,33 @@ client.on('message', message => {
 
 	let args = message.content.substring(PREFIX.length).split(" ");
 
-	if(args[0] === 'COMMAND_STRING_HERE')
+	if(args[0] === 'FED')
 	{ 
-		message.member.addRole('ROLE_ID_HERE');
-		message.reply('You have been added to the [ROLE_NAME] role!');
-	}else if(args[0] === 'COMMAND_STRING_HERE') 
+		message.member.addRole('439613061725159424');
+		message.reply('You have been added to the Front-End Dev role!');
+	}else if(args[0] === 'BED') 
 	{ 
-		message.member.addRole('ROLE_ID_HERE');
-		message.reply('You have been added to the [ROLE_NAME] role!');
-	}else if(args[0] === 'COMMAND_STRING_HERE')
+		message.member.addRole('439612764416245760');
+		message.reply('You have been added to the Back-End Dev role!');
+	}else if(args[0] === 'FSD')
 	{ 
-		message.member.addRole('ROLE_ID_HERE');
-		message.reply('You have been added to the [ROLE_NAME] role!');
-	}else if(args[0] === 'COMMAND_STRING_HERE')
+		message.member.addRole('439613218965422083');
+		message.reply('You have been added to the Full Stack Dev role!');
+	}else if(args[0] === 'FEN')
 	{ 
-		message.member.addRole('ROLE_ID_HERE');
-		message.reply('You have been added to the [ROLE_NAME] role!');
-	}else if(args[0] === 'COMMAND_STRING_HERE')
+		message.member.addRole('439613261470629889');
+		message.reply('You have been added to the Front-End Newbie role!');
+	}else if(args[0] === 'BEN')
 	{ 
-		message.member.addRole('ROLE_ID_HERE');
-		message.reply('You have been added to the [ROLE_NAME] role!');
-	}else if(args[0] === 'COMMAND_STRING_HERE')
+		message.member.addRole('439613357360807936');
+		message.reply('You have been added to the Back-End Newbie role!');
+	}else if(args[0] === 'FSN')
 	{ 
-		message.member.addRole('ROLE_ID_HERE');
-		message.reply('You have been added to the [ROLE_NAME] role!');
+		message.member.addRole('439613546083647489');
+		message.reply('You have been added to the Full Stack Newbie role!');
 	}else if(args[0] === 'help')
 	{ 
-		message.reply('[Insert whatever instructions you want here]');
+		message.reply('To assign yourself a role please use the following commands. Front-End Dev: $FED, Back-End Dev: $BED, Full Stack Dev: $FSD, Front-End Newbie: $FEN, Back-End Newbie: $BEN, Full Stack Newbie: $FSN. Please choose only ONE role!');
 	}
 });
 
@@ -45,4 +45,4 @@ client.on('message', message => {
 
 
 
-client.login('YOUR_BOT_TOKEN_HERE');
+client.login('BOT_TOKEN_GOES_HERE');
