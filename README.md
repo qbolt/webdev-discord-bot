@@ -4,7 +4,7 @@ You are going to need to make sure you have both Node (v 6.0 or greater) and dis
 
 Once you have Node and discord.js installed, you will want to edit the discordbot.js file.
 
-You will also need to create the roles you wish to use within your discord server and obtain their IDs. To obtain a role id just type "\@rolename" into chat and hit enter.
+You will also need to create the roles you wish to use within your discord server and obtain their IDs. To obtain a role id just type a forward slash and then the @rolename into chat and hit enter.
 
 For the "const PREFIX = '$'" line change the $ to whatever prefix command you want to use (ex: !command, $command, &command)
 
