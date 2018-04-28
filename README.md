@@ -2,7 +2,7 @@
 You are going to need to make sure you have both Node (v 6.0 or greater) and discord.js installed. You will also need to make sure you have a bot created with permissions set up and assigned to your server. This project assumes you already know how to do so, but if you do not you can find a bunch of tutorials on youtube. For setting up a discord bot go here:https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
 
 
-Once you have Node and discord.js installed, you will want to edit a few files; index.js, config.json, and roles.js.
+Once you have Node and discord.js installed, you will want to edit a few files; index.js and roles.js. You also need to make a config.json file (see below)
 
 You will also need to create the roles you wish to use within your discord server and obtain their IDs. To obtain a role id just type a back slash and then the @rolename into chat and hit enter.
 
@@ -28,7 +28,7 @@ const roles = {
 This changes the hiearchy of your set roles. Edit as needed with correct role commands.
 
 
-Lastly, you need to make a small change to config.json:
+Lastly, you need to make a file called config.json and add the following:
 {
     "BOT_TOKEN": "YOUR_BOT_TOKEN_HERE"
 }
