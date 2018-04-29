@@ -13,7 +13,7 @@ client.on('message', message => {
 	const args = message.content.substring(PREFIX.length).split(' ')
 	const command = args[0]
 
-	applyRoles(command, message)
+	applyRoles(command.toUpperCase(), message)
 
 	if(command === 'help') {
 		message.reply('To assign yourself a role please use the following commands. Front-End Dev: $FED, Back-End Dev: $BED, Full Stack Dev: $FSD, Front-End Newbie: $FEN, Back-End Newbie: $BEN, Full Stack Newbie: $FSN. Please choose only ONE role!')

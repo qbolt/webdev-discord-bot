@@ -1,5 +1,6 @@
 # Private files
 config.json
+roles.json
 
 # Node Modules
 node_modules/
